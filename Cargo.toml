@@ -1,7 +1,14 @@
-[package]
-name = "Axolotl"
-version = "0.1.0"
-edition = "2021"
+# [package]
+# name = "Axolotl"
+# version = "0.1.0"
+# edition = "2021"
 
-[dependencies]
-glfw = "0.57.0"
+[workspace]
+members = [ "ax_particles",
+    "ax_window",
+]
+
+# [dependencies]
+# gl = "0.14.0"
+# glfw = "0.58.0"
+# ax_window = { path = "./ax_window" }

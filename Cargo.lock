@@ -3,7 +3,11 @@
 version = 3
 
 [[package]]
-name = "Axolotl"
+name = "ax_particles"
+version = "0.1.0"
+
+[[package]]
+name = "ax_window"
 version = "0.1.0"
 dependencies = [
  "glfw",
@@ -32,9 +36,9 @@ dependencies = [
 
 [[package]]
 name = "glfw"
-version = "0.57.0"
+version = "0.58.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "728542cdb04ce0f441f0b1e6e99b67e9772dfc3545406b870aba2f0db03aa9c9"
+checksum = "d1cad81f99085cabd6a4a99403335bc3f3d00d6cf4467e478f13c393ced9259d"
 dependencies = [
  "bitflags",
  "glfw-sys",
