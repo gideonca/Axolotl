@@ -3,6 +3,10 @@
 version = 3
 
 [[package]]
+name = "ax_events"
+version = "0.1.0"
+
+[[package]]
 name = "ax_particles"
 version = "0.1.0"
 

@@ -4,7 +4,9 @@
 # edition = "2021"
 
 [workspace]
-members = [ "ax_particles",
+members = [ 
+    "ax_events", 
+    "ax_particles",
     "ax_window",
 ]
 
