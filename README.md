@@ -48,3 +48,5 @@
 * [ ] - Event Manager
 * [ ] - Scripting
 * [ ] - 3D modeler using Vector graphics
+* [ ] - MUD support
+* [ ] - IRC support
