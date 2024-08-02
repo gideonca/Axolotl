@@ -1,16 +1,16 @@
-# [package]
-# name = "Axolotl"
-# version = "0.1.0"
-# edition = "2021"
+[package]
+name = "Axolotl"
+version = "0.1.0"
+edition = "2021"
 
-[workspace]
-members = [ 
-    "ax_events", 
-    "ax_particles",
-    "ax_window",
-]
+# [workspace]
+# members = [ 
+#     "ax_events", 
+#     "ax_particles",
+#     "ax_window",
+# ]
 
-# [dependencies]
-# gl = "0.14.0"
-# glfw = "0.58.0"
-# ax_window = { path = "./ax_window" }
+[dependencies]
+vulkanalia = "0.24.0"
+vulkano = "0.34.1"
+winit = "0.28.0"
