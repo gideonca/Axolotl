@@ -13,4 +13,7 @@ edition = "2021"
 [dependencies]
 vulkanalia = "0.24.0"
 vulkano = "0.34.1"
+vulkano-shaders = "0.34.0"
+vulkano-util = "0.34.1"
+vulkano-win = "0.34.0"
 winit = "0.28.0"
