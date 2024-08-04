@@ -50,3 +50,4 @@
 * [ ] - 3D modeler using Vector graphics
 * [ ] - MUD support
 * [ ] - IRC support
+* [ ] - Scripting - Lua engine???
